@@ -1,0 +1,32 @@
+# Ignore everything in parent directories
+../../*
+
+# But keep the Agents folder contents
+!Agent1/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Agent outputs
+plan.json
+plan.txt
